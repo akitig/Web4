@@ -1,0 +1,39 @@
+# Laravel 基本
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*.backup
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache
+
+# Laravel Mix / Vite
+/public/hot
+/public/build
+/build
+/resources/js/*.js
+resources/js/*.ts
+resources/js/*.vue
+resources/js/*.jsx
+resources/js/*.tsx
+
+# Laravel IDE Helper
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# Docker 関連
+docker-compose.override.yml
+.docker/
+*.log
+
+# OS・エディタ固有
+.DS_Store
+*.swp
+*.swo
+.idea
+.vscode
